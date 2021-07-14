@@ -1,0 +1,706 @@
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* contents/functional search bar.css */
+input[type=search] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0b7dda;
+}
+
+:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* contents/functional search bar.css */
+
+/* contents/buy button.css */
+.topnav-buy-button {
+					width: 100%;
+     background-color: white;
+     overflow: auto;     
+	}
+	
+	.topnav-buy-button a {
+					text-decoration:none;
+					float:left;
+					color:white;
+					padding:5px 5px 5px 5px;
+					text-align:left;	
+					width: 100%;				
+	}
+	
+	@media(max-width:600px) {
+		.topnav-buy-button {
+					width: 100%;
+     background-color: white;
+     overflow: auto; 
+     float:left;    
+	}
+				
+	}
+
+	#buy-button {
+		width:100%;
+		padding:10px;
+		font-size:20px;
+		background-color:#ffdc00;
+		color:white;
+		border-left:2px solid #0096ff;
+		border-bottom:2px solid #0096ff;
+		border-right:0px solid #0096ff;
+		border-top:0px solid #0096ff;
+		border-radius: 10px;
+}	
+#buy-button:hover {
+		background-color:#0096ff;	
+		border-radius: 10px;	
+}
+#buy-button:active {
+		border-right:2px solid #0096ff;
+		border-top:2px solid #0096ff;
+		border-left:0px solid #0096ff;
+		border-bottom:0px solid #0096ff;
+		border-radius: 10px;
+}
+
+/* other sellers buy botton */
+#other-seller-buy-botton {
+				width: 100%;
+		border-left:2px solid #0096ff;
+		border-bottom:2px solid #0096ff;
+		border-right:0px solid #0096ff;
+		border-top:0px solid #0096ff;
+		border-radius: 10px;
+		background-color: #ffc700;
+		font-size: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+}
+
+#other-seller-buy-botton:hover {
+		background-color:#0096ff;	
+		border-radius: 10px;	
+}
+#other-seller-buy-botton:active {
+		border-right:2px solid #0096ff;
+		border-top:2px solid #0096ff;
+		border-left:0px solid #0096ff;
+		border-bottom:0px solid #0096ff;
+		border-radius: 10px;
+}
+
+/* contents/buy button.css */
+
+/* a tag.css */
+/* flex 1 */
+#search-bar {
+				width: 100%;
+}
+#website {
+				line-height: 42px;
+}
+#search-icon {
+				line-height: 42px;
+				display: none;
+}
+#my-orders {
+				line-height: 42px;
+				display: block;
+}
+
+@media(max-width:600px) {
+		 	#website {
+				line-height: 10px;
+}	
+    #search-icon {
+				line-height: 10px;
+				display: block;
+}
+    #my-orders {
+				line-height: 10px;
+				display: block;
+}
+}
+/* flex 1 */
+
+/* flex 2 */
+#equal-width {
+				line-height: 42px;
+}
+/* flex 2 */
+
+/* a tag.css */
+
+/* image area.css */
+.carousel {
+  background: #FAFAFA;
+  margin-bottom: 15px;
+}
+
+.carousel-cell {
+  width: 100%;    
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+ /* display: block;*/
+ /* text-align: center;*/
+ /* content: counter(carousel-cell);*/
+ /* line-height: 200px;*/
+ /* font-size: 80px;*/
+  /*color: white;*/
+}
+
+.carousel-nav .carousel-cell { 
+  width: 87px;
+  height: 87px;
+}
+
+.carousel-nav .carousel-cell:before {
+  font-size: 50px;
+  
+}
+
+.carousel-nav .carousel-cell.is-nav-selected {
+  background: #ED2;
+}
+
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -25px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+  display:none;
+}
+
+.flickity-prev-next-button {
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /* vertically center */
+  transform: translateY(-50%);
+  display:none;
+}
+@media(max-width:600px) {
+.flickity-prev-next-button {
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /* vertically center */
+  transform: translateY(-50%);
+  display:none;
+}	
+
+.flickity-page-dots {
+  display:block;
+}
+
+.carousel-nav .carousel-cell { 
+  width: 100px;
+  height: 100px;
+  display:none;
+}
+}								
+
+/* image area.css */
+
+/* w/my topnav.css */
+.topnav-pricing {
+					width: 100%;
+     background-color: white;
+     overflow: auto;   
+	}
+	.topnav-pricing2 {
+					width: 100%;
+     background-color: #f8ff55;
+     overflow: auto;
+     border-radius: 10px;   
+	}
+.topnav-pricing2 a {
+					text-decoration:none;
+					float:left;
+					color:black;
+					padding:5px 5px;
+					text-align:left;
+					font-size: 17px;
+	}	
+	.topnav-pricing a {
+					text-decoration:none;
+					float:left;
+					color:black;
+					padding:5px 5px;
+					text-align:left;
+					font-size: 17px;
+	}
+	
+	@media(max-width:600px) {
+		.topnav-pricing {
+					width: 100%;
+     background-color: white;
+     overflow: auto; 
+     float:left;    
+	}				
+	}
+
+.topnav-card {
+  position: relative;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-radius:10px;
+  margin-bottom: 10px;
+  box-shadow:0.5px 0.5px 2px 1px #c7c7c7;  
+}
+
+.topnav-card a {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+
+
+.topnav-right-card {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav-card a {
+    float: left;
+    display: block;
+  }
+  .topnav-right-card {
+  		float: right;
+    display: block;
+  }
+}
+
+/* w/my topnav.css */
+
+/* navbar.css */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;  
+  text-align: left;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/* navbar.css */
+
+/* contents/navbar2.css */
+.navbar2 {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.navbar2 a {
+  float: left;
+  padding: 12px 18px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;  
+  text-align: left;
+}
+
+.navbar2 a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar2 a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/* contents/navbar2.css */
+
+/* contents/navbar3.css */
+.navbar3 {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.navbar3 a {
+  float: left;
+  padding: 12px 0px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;  
+  text-align: left;
+  width: 100%;
+}
+
+.navbar3 a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar3 a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/* contents/navbar3.css */
+
+/* contents/table.css */
+table {
+  border-collapse: collapse;
+  width: 100%;  
+  
+}
+
+th, td {
+  text-align: left;  
+}
+
+th {
+	
+}		
+/* about this item */
+#idul {
+				padding-left:25px;
+				line-height: 22px;
+}	
+/* contents/table.css */
+
+/* contents/have a question.css */
+.wrapper { 
+  width: 100%; 
+ 
+  margin-right: auto; 
+  margin-left: auto;
+} 
+
+.d-grid { 
+  display: grid;
+} 
+
+button,select { 
+  outline: none; 
+  appearance: none; 
+  -webkit-appearance: none;
+} 
+
+button,.btn,select { 
+  cursor: pointer; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",   Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+} 
+
+a { 
+  text-decoration: none;
+} 
+
+iframe { 
+  border: none;
+} 
+
+/* simple contact form */
+.contact-form { 
+  background: #eee;
+  padding:5px;
+} 
+
+
+
+
+.form-mid form input,.form-mid form textarea { 
+  background: #f8f9fa; 
+  border: 1px #494949 solid; 
+  color: #777; 
+  font-size: 16px;   
+  width: 100%; 
+  border-radius: 50px; 
+  height: 40px;
+  padding:10px;
+  margin: 0px auto 0px; 
+} 
+
+.form-mid form textarea { 
+  resize: none; 
+  min-height: 140px;
+} 
+
+.form-mid form input:focus,.form-mid form textarea:focus { 
+  outline: none; 
+  border: 2px red solid; 
+  background: #fff; 
+  box-shadow: none;
+} 
+
+button.btn-contact { 
+  border: none; 
+  font-size: 10px; 
+  padding: 10px; 
+  margin: 10px 10px 0; 
+  color: #fff; 
+  background: #ff4c4c; 
+  border-color: #ff4c4c; 
+  display: inline-block; 
+  font-weight: 400; 
+  text-align: center; 
+  vertical-align: middle; 
+  cursor: pointer; 
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+  border: 1px solid transparent; 
+  border-radius: 0.25rem;
+  width: 100px;
+} 
+ 
+/* /simple contact form */
+/* contents/have a question.css */
+
+/* w/services.css */
+.services {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.services a {
+  float: left;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: left;
+}
+#a-image {
+		background-color:white;		
+}
+#a-text {		
+		line-height:50px;
+}
+.services a:hover {
+  background-color: white;
+}
+.avatar-2 {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  padding:10px;  
+}
+/* w/services.css */
+
+/* contents/quick details tabbed manu.css */
+.tablink {
+  background-color: white;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+  font-size: 17px;
+  width: 25%;    
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;  
+  padding:20px;
+  height:100%;
+}
+
+#Home {background-color: #f1f1f1;}
+#News {background-color: #f1f1f1;}
+#Contact {background-color: #f1f1f1;}
+#About {background-color: #f1f1f1;}				
+
+
+/* equal width navbar */
+.navbar-equal-width2 {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: auto;  
+}
+
+.navbar-equal-width2 a {
+  float: left;
+  padding-top: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%; /* Four links of equal widths */
+  text-align: center;  
+}
+.navbar-equal-width2:hover {
+  background-color: #f1f1f1;
+}
+.navbar-equal-width2 a.active {
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-equal-width2 a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-equal-width2 a.active {
+  background-color: red;
+}
+}
+
+#quick-detail-img {
+		border-radius: 50px;
+		width: 60px;
+		height: 60px;
+		background-color: #f1f1f1;
+}
+/* equal width navbar */
+
+/* contents/quick details tabbed manu.css */
+
+/* image grid */
+.row,
+.row > .column {
+  padding: 8px; 
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;  
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 0px;
+}
+.content2 {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* image grid */
+
+/* buy together css */
+.navbar-buy-together {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.navbar-buy-together a {
+  float: left;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  Four links of equal widths */
+  text-align: left;
+}
+
+.navbar-buy-together a.active {
+  background-color: white;
+}
+#grid {
+		width:25%;
+}
+@media screen and (max-width: 500px) {
+  .navbar-buy-together a {
+    float: left;
+    display: block;    
+    text-align: left;
+  }
+  .navbar-buy-together a.active {
+  background-color: white;
+}
+#grid {
+		width:29%;
+}
+}
+/* buy together css */
